@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 6</title>
+    <link rel="stylesheet" href="Latihan6.css">
+    <style>
+        /* selector digunakan untuk memilih mana bagian dari HTML yang akan diubah */
+        /* syntax CSS adalah selector(properties: value;) */
+
+        /* selector dengan nama tag */
+        h1 {
+            color: black;
+        }
+
+        /* selector id */
+        #judul {
+            color: rgb(243, 88, 212);
+        }
+        /* selector class */
+        .tengah {
+            align-self: center;
+            color:aqua;
+        }
+        /* multy selector */
+        h2, h3, h4 {
+            color: midnightblue;
+        }
+        /* lebih spesifik lagi bisa */
+        h2.tengah {
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <img src="Fiony (2).jpg" alt="fiony">
+    <!-- id= memeberi tanda khusus elemen, tidak boleh sama -->
+    <h1 id="judul">ABOUT FIONY</h1>
+    <!-- class= bisa dipakai berkali2, kalau id tidak digunakan berkali2 -->
+    <h2 class="tengah">Namaku Fiony</h2>
+    <h3 class="tengah">Hallo</h3>
+    <h4>Seperti Symphony yang menenangkan hati</h4>
+</body>
+</html>
